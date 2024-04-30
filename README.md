@@ -1,1 +1,1 @@
-# ignite-labs
+# ignite-lab
