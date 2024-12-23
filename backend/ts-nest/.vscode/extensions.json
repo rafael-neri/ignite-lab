@@ -1,0 +1,16 @@
+{
+	"recommendations": [
+    "eamodio.gitlens",
+		"mikestead.dotenv",
+		"ms-vscode-remote.remote-containers",
+		"editorconfig.editorconfig",
+		"dbaeumer.vscode-eslint",
+		"jasonlhy.hungry-delete",
+    "visualstudioexptteam.vscodeintellicode",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+    "Prisma.prisma",
+    "pflannery.vscode-versionlens",
+    "redhat.vscode-yaml"
+	]
+}

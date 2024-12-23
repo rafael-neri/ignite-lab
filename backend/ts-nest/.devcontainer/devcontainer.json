@@ -1,0 +1,29 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+	"name": "Ignite Lab Node",
+
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+
+  "workspaceFolder": "/app",
+	"service": "app",
+
+	"extensions": [
+    "eamodio.gitlens",
+    "rokoroku.vscode-theme-darcula",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "jasonlhy.hungry-delete",
+    "visualstudioexptteam.vscodeintellicode",
+    "yzhang.markdown-all-in-one",
+    "PKief.material-icon-theme",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "Prisma.prisma",
+    "pflannery.vscode-versionlens",
+    "redhat.vscode-yaml",
+    "GitHub.copilot"
+  ]
+}

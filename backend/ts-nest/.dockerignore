@@ -1,0 +1,12 @@
+.vscode
+coverage
+dist
+node_modules
+test
+.dockerignore
+.editorconfig
+.env
+.eslintrc.js
+.gitignore
+Dockerfile
+README.md

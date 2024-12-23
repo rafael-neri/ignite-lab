@@ -1,0 +1,104 @@
+{
+  "files.autoSave": "onFocusChange",
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.restoreUndoStack": true,
+  "files.saveConflictResolution": "askUser",
+  "files.enableTrash": true,
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.idea": true,
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.activityBar.iconClickBehavior": "toggle",
+  "workbench.tree.indent": 15,
+
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+  "explorer.decorations.badges": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.decorations.colors": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.incrementalNaming": "smart",
+  "explorer.sortOrder": "default",
+
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.comments.insertSpace": true,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.fontFamily": "'Jetbrains Mono', 'Fira Code', 'Consolas', 'Courier New', 'monospace'",
+  "editor.fontLigatures": false,
+  "editor.folding": true,
+  "editor.showFoldingControls": "always",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.preview": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "selection",
+  "editor.foldingMaximumRegions": 10000,
+  "editor.largeFileOptimizations": true,
+  "editor.fontSize": 16,
+  "editor.stickyScroll.enabled": false,
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.console.closeOnEnd": false,
+  "debug.inlineValues": "off",
+  "debug.toolBarLocation": "docked",
+  "debug.console.wordWrap": true,
+  "debug.showInStatusBar": "never",
+  "debug.openDebug": "openOnDebugBreak",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "vue"
+  ],
+
+  "eslint.enable": true,
+  "eslint.format.enable": false,
+  "eslint.lintTask.enable": false,
+  "eslint.packageManager": "yarn",
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.autoClosingTags": true,
+  "typescript.format.enable": true,
+  "typescript.validate.enable": true,
+
+  "typescript.suggest.paths": true,
+
+  "json.maxItemsComputed": 65000,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "material-icon-theme.activeIconPack": "nest",
+
+  "gitlens.showWhatsNewAfterUpgrades": false,
+
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  }
+}
