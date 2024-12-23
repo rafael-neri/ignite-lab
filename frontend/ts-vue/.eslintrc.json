@@ -1,0 +1,140 @@
+{
+  "root": true,
+
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+
+  "globals": {
+    "Atomic": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+
+  "overrides": [
+    {
+      "files": ["*.ts"],
+
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaVersion": 2022,
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+      },
+
+      "extends": [
+        "plugin:promise/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "eslint:recommended",
+        "plugin:eslint-comments/recommended",
+        "airbnb-base",
+        "airbnb-typescript/base"
+      ],
+
+       "plugins": [
+        "eslint-plugin-import-helpers"
+      ],
+
+      "rules": {
+        "no-debugger": "off",
+
+        "no-void": "off",
+        "no-nested-ternary": "off",
+        "import/first": "off",
+        "import/namespace": "error",
+        "import/default": "error",
+        "import/export": "error",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off",
+        "prefer-promise-reject-errors": "off",
+        "no-unsafe-argument": "off",
+        "no-unsafe-assignment": "off",
+        "no-unsafe-call": "off",
+        "no-unsafe-member-access": "off",
+
+        "no-new": "warn",
+        "no-prototype-builtins": "off",
+        "max-classes-per-file": "warn",
+        "no-console": "off",
+        "no-param-reassign": "off",
+        "init-declarations": "off",
+        "padding-line-between-statements": "off",
+        "import/prefer-default-export": "off",
+        "no-useless-constructor": "off",
+        "no-plusplus": "off",
+        "no-await-in-loop": "off",
+        "class-methods-use-this": "off",
+        "no-return-await": "off",
+        "camelcase": "off",
+        "no-shadow": "off",
+        "max-len": ["error", { "code": 160, "tabWidth": 4, "ignoreUrls": true }],
+        "quotes": ["warn", "single", { "avoidEscape": true }],
+
+        "import-helpers/order-imports": [
+          "warn",
+          {
+            "newlinesBetween": "always",
+            "groups": [
+              "module",
+              "/^@shared/",
+              "/^@/",
+              [
+                "parent",
+                "sibling",
+                "index"
+              ]
+            ],
+            "alphabetize": {
+              "order": "asc",
+              "ignoreCase": true
+            }
+          }
+        ],
+
+        // TypeScript
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-shadow": ["error"],
+        "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "_" }],
+        "@typescript-eslint/no-unsafe-argument": "off",
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-unsafe-call": "off",
+        "@typescript-eslint/no-unsafe-member-access": "off"
+      }
+    },
+
+    {
+      "files": ["*.js"],
+
+      "extends": [
+        "plugin:promise/recommended",
+        "eslint:recommended",
+        "plugin:eslint-comments/recommended",
+        "airbnb-base"
+      ],
+
+      "plugins": [
+        "eslint-plugin-import-helpers"
+      ],
+
+      "rules": {
+        "global-require": "off",
+        "quote-props": "off",
+        "camelcase": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/newline-after-import": "off",
+        "no-undef-init": "off",
+        "max-len": ["error", { "code": 160, "tabWidth": 4, "ignoreUrls": true }],
+        "no-unused-vars": ["warn", { "argsIgnorePattern": "_" }],
+        "no-unsafe-argument": "off",
+        "no-unsafe-assignment": "off",
+        "no-unsafe-call": "off",
+        "no-unsafe-member-access": "off"
+      }
+    }
+  ]
+}
