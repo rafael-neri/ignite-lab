@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "ecmel.vscode-html-css",
+    "jasonlhy.hungry-delete",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "dsznajder.es7-react-js-snippets"
+  ],
+  "unwantedRecommendations": [
+    "hookyqr.beautify",
+    "dbaeumer.jshint",
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ]
+}
