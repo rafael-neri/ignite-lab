@@ -1,1 +1,1 @@
-# IgniteLab - Golang - Fiber Framework
+# IgniteLab - Golang - Fiber
